@@ -43,6 +43,19 @@ silly_story = Story(
        {adjective} {noun}. It loved to {verb} with {plural_noun}."""
 )
 
+# OUR CODE INJECTION
+
+answer = {
+    'place': 'SF',
+    'noun': 'beer',
+    'verb': 'run',
+    'adjective': 'foggy',
+    'plural_noun': 'hipsters'
+
+}
+
+# END CODE INJECTION
+
 # Here's another --- you should be able to swap in app.py to use this story,
 # and everything should still work
 
