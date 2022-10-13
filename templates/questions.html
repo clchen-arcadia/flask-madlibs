@@ -8,6 +8,9 @@
 
 <form action="results" class="pb-4">
 
+  <div display="none">
+    <input name="story_name" value="{{ story_name }}">
+  </div>
 
   {% for prompt in prompts %}
   <div class="mb-3 row">
